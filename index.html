@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cross &amp; Beam Construction — Built on Precision</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-inner">
+    <a href="#top" class="logo"><span class="mark"></span>Cross &amp; Beam</a>
+    <nav class="links">
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div style="display:flex; align-items:center; gap:1rem;">
+      <a href="#contact" class="btn btn-amber" style="display:inline-flex;">Request a Quote</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div id="mobileMenu" style="display:none; background:var(--blueprint); border-top:1px solid var(--blueprint-line); padding:1rem clamp(1.25rem,4vw,3rem) 1.5rem; flex-direction:column; gap:0.2rem;">
+    <a href="#services" style="color:var(--white); font-family:var(--mono); font-size:0.85rem; text-transform:uppercase; padding:0.7rem 0; border-bottom:1px solid var(--blueprint-line);">Services</a>
+    <a href="#process" style="color:var(--white); font-family:var(--mono); font-size:0.85rem; text-transform:uppercase; padding:0.7rem 0; border-bottom:1px solid var(--blueprint-line);">Process</a>
+    <a href="#projects" style="color:var(--white); font-family:var(--mono); font-size:0.85rem; text-transform:uppercase; padding:0.7rem 0; border-bottom:1px solid var(--blueprint-line);">Projects</a>
+    <a href="#contact" style="color:var(--white); font-family:var(--mono); font-size:0.85rem; text-transform:uppercase; padding:0.7rem 0;">Contact</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="eyebrow hero-tag">Est. 1998 — Licensed General Contractor</div>
+        <h1>Built on<br><span class="dim">±</span>Precision</h1>
+        <p class="hero-sub">Cross &amp; Beam plans, permits, and delivers commercial and residential builds across the region — from first survey stake to final walkthrough, on schedule and to spec.</p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-amber">Start a Project</a>
+          <a href="#projects" class="btn btn-outline">View Our Work</a>
+        </div>
+      </div>
+      <div class="hero-panel">
+        <div class="hero-stat-row"><span class="label">Projects Delivered</span><span class="num">312</span></div>
+        <div class="hero-stat-row"><span class="label">Avg. Schedule Variance</span><span class="num">−2.1%</span></div>
+        <div class="hero-stat-row"><span class="label">Sq. Ft. Under Management</span><span class="num">4.8M</span></div>
+        <div class="hero-stat-row"><span class="label">Recordable Incident Rate</span><span class="num">0.4</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>Commercial Construction</span><span>Residential Builds</span><span>Design–Build</span><span>Concrete &amp; Structural Steel</span><span>Renovation &amp; Additions</span><span>Project Management</span>
+      <span>Commercial Construction</span><span>Residential Builds</span><span>Design–Build</span><span>Concrete &amp; Structural Steel</span><span>Renovation &amp; Additions</span><span>Project Management</span>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <div class="eyebrow">What We Build</div>
+          <h2>Full-Scope<br>Construction Services</h2>
+        </div>
+        <p>Six disciplines under one roof, coordinated by a single project team from permitting through punch list.</p>
+      </div>
+      <div class="service-grid reveal">
+        <div class="service-card">
+          <span class="spec">SPEC — 01</span>
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6"/></svg>
+          <h3>Residential Builds</h3>
+          <p>Custom homes and multi-unit residential, engineered for the site and built to last generations.</p>
+        </div>
+        <div class="service-card">
+          <span class="spec">SPEC — 02</span>
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M6 21V7l6-4 6 4v14M10 21v-5h4v5M9 10h1M14 10h1M9 14h1M14 14h1"/></svg>
+          <h3>Commercial Construction</h3>
+          <p>Retail, office, and industrial facilities delivered against tight tenant and lease timelines.</p>
+        </div>
+        <div class="service-card">
+          <span class="spec">SPEC — 03</span>
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 22V10l8-6 8 6v12M4 22h16M9 22v-6h6v6"/></svg>
+          <h3>Design–Build</h3>
+          <p>One contract, one team — architecture and construction managed together to compress schedules.</p>
+        </div>
+        <div class="service-card">
+          <span class="spec">SPEC — 04</span>
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3h18v6H3zM3 15h8v6H3zM15 15h6v6h-6z"/></svg>
+          <h3>Concrete &amp; Structural Steel</h3>
+          <p>In-house foundation, framing, and structural steel crews — no subcontractor hand-offs.</p>
+        </div>
+        <div class="service-card">
+          <span class="spec">SPEC — 05</span>
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2v6h6M8 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6H8z"/></svg>
+          <h3>Renovation &amp; Additions</h3>
+          <p>Structural remodels and additions that respect the existing building and code both.</p>
+        </div>
+        <div class="service-card">
+          <span class="spec">SPEC — 06</span>
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+          <h3>Project Management</h3>
+          <p>Owner's-rep and CM services — budget, schedule, and quality control from a single dashboard.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process" id="process">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <div class="eyebrow">How A Project Moves</div>
+          <h2>Four Phases,<br>One Team</h2>
+        </div>
+        <p>Every build runs through the same four gated phases, so you always know exactly where your project stands.</p>
+      </div>
+      <div class="process-list reveal">
+        <div class="process-item">
+          <div class="process-num">01</div>
+          <h3>Plan</h3>
+          <p>Site survey, budgeting, and design development with your architect or ours — scope and cost locked before we break ground.</p>
+        </div>
+        <div class="process-item">
+          <div class="process-num">02</div>
+          <h3>Permit</h3>
+          <p>We manage the full entitlement and permitting process with local jurisdictions, so approvals don't stall your start date.</p>
+        </div>
+        <div class="process-item">
+          <div class="process-num">03</div>
+          <h3>Build</h3>
+          <p>Dedicated superintendent on site daily, weekly owner updates, and a live schedule you can check any time.</p>
+        </div>
+        <div class="process-item">
+          <div class="process-num">04</div>
+          <h3>Deliver</h3>
+          <p>Punch list, final inspections, and closeout documentation handed over — plus a one-year warranty walkthrough.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <div class="eyebrow">Selected Work</div>
+          <h2>Recent Projects</h2>
+        </div>
+        <p>A sample of builds completed in the last three years, across commercial and residential scopes.</p>
+      </div>
+      <div class="project-grid reveal">
+        <div class="project-card wide" style="--pc1:#3B4A5A; --pc2:#151B22;">
+          <div class="photo"></div>
+          <div class="project-info">
+            <span class="project-tag">Commercial · 48,000 sq ft</span>
+            <h3>Harbor District Office Center</h3>
+          </div>
+        </div>
+        <div class="project-card" style="--pc1:#5C4A38; --pc2:#1A1D21;">
+          <div class="photo"></div>
+          <div class="project-info">
+            <span class="project-tag">Residential · New Build</span>
+            <h3>Ridgeline Custom Home</h3>
+          </div>
+        </div>
+        <div class="project-card" style="--pc1:#4A5560; --pc2:#10233D;">
+          <div class="photo"></div>
+          <div class="project-info">
+            <span class="project-tag">Renovation · Historic</span>
+            <h3>Millwright Lofts Conversion</h3>
+          </div>
+        </div>
+        <div class="project-card wide" style="--pc1:#2E3B48; --pc2:#0F1216;">
+          <div class="photo"></div>
+          <div class="project-info">
+            <span class="project-tag">Industrial · Design–Build</span>
+            <h3>Northgate Distribution Facility</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats-grid reveal">
+        <div class="stat">
+          <div class="figure" data-count="27">0</div>
+          <div class="cap">Years in Operation</div>
+        </div>
+        <div class="stat">
+          <div class="figure" data-count="312">0</div>
+          <div class="cap">Projects Completed</div>
+        </div>
+        <div class="stat">
+          <div class="figure" data-count="98" data-suffix="%">0%</div>
+          <div class="cap">On-Time Delivery</div>
+        </div>
+        <div class="stat">
+          <div class="figure" data-count="41">0</div>
+          <div class="cap">Field &amp; Office Staff</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL -->
+  <section class="testimonial">
+    <div class="container reveal">
+      <blockquote>"Cross &amp; Beam hit every milestone on our build-out and flagged issues before they cost us a day. Closest thing to a stress-free commercial build I've had."</blockquote>
+      <cite>— Priya Nathan, Director of Operations, Harbor District Retail</cite>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band">
+    <div class="container cta-inner reveal">
+      <h2>Have a site and a scope?<br>Let's put a schedule to it.</h2>
+      <a href="#contact" class="btn btn-outline-ink">Request a Quote</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info reveal">
+        <div class="eyebrow" style="color:var(--amber-dark);">Get In Touch</div>
+        <h2>Request a Project Quote</h2>
+        <p>Tell us about your site and scope. A project lead will follow up within one business day with next steps and a rough budget range.</p>
+        <div class="info-line"><span class="k">Office</span><span>412 Foundry Street, Suite 200 — Riverton</span></div>
+        <div class="info-line"><span class="k">Phone</span><span>(555) 019-2244</span></div>
+        <div class="info-line"><span class="k">Email</span><span>projects@crossandbeam.build</span></div>
+        <div class="info-line"><span class="k">Hours</span><span>Mon–Fri, 7:00 AM – 5:00 PM</span></div>
+      </div>
+      <form id="quoteForm" class="reveal" novalidate>
+        <div class="form-row">
+          <div class="field">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Jordan Lee">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="jordan@email.com">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000">
+          </div>
+          <div class="field">
+            <label for="type">Project Type</label>
+            <select id="type" name="type" required>
+              <option value="">Select one</option>
+              <option>Residential Build</option>
+              <option>Commercial Construction</option>
+              <option>Renovation / Addition</option>
+              <option>Design–Build</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="details">Project Details</label>
+          <textarea id="details" name="details" required placeholder="Location, approximate square footage, and target start date."></textarea>
+        </div>
+        <button type="submit" class="btn btn-amber" style="justify-content:center;">Submit Request</button>
+        <div class="form-status" id="formStatus"></div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <a href="#top" class="logo"><span class="mark"></span>Cross &amp; Beam</a>
+        <p>A licensed general contractor delivering commercial and residential builds with in-house structural, concrete, and project management teams.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#projects">Projects</a>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <span>Residential</span>
+        <span>Commercial</span>
+        <span>Design–Build</span>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:projects@crossandbeam.build">projects@crossandbeam.build</a>
+        <a href="tel:5550192244">(555) 019-2244</a>
+        <span>Riverton, Regional Office</span>
+      </div>
+    </div>
+
+    <div class="titleblock">
+      <div class="tb-cell"><span class="k">Sheet</span><span class="v">CB-LP-01</span></div>
+      <div class="tb-cell"><span class="k">Scale</span><span class="v">NTS</span></div>
+      <div class="tb-cell"><span class="k">Drawn By</span><span class="v">C&amp;B Studio</span></div>
+      <div class="tb-cell"><span class="k">License</span><span class="v">GC-994231</span></div>
+      <div class="tb-cell"><span class="k">Rev</span><span class="v">A — 2026</span></div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Cross &amp; Beam Construction. All rights reserved.</span>
+      <span>Licensed, Bonded &amp; Insured</span>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
